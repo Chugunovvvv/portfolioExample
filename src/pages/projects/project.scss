@@ -1,0 +1,38 @@
+@import '../../styles/vars.scss';
+
+.project {
+    padding: 70px 0;
+   
+    @media(max-width: 768px) {
+        padding: 35px 0;
+    }
+}
+.project__container {
+    
+}
+.container {
+}
+.project__title {
+    color: $accent;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 60px;
+
+    font-weight: 700;
+    line-height: 130%; /* 78px */
+    letter-spacing: -0.5px;
+    margin-bottom: 60px;
+    @media(max-width: 768px) {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+}
+.project__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    @media(max-width: 425px) {
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    }
+    
+}

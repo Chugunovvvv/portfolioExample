@@ -1,0 +1,32 @@
+@import '../../styles/vars.scss';
+
+
+footer {
+    
+    padding: 60px 0;
+    
+    background-color: $darkColor;
+}
+
+.footer__icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 27px;
+
+}
+
+.footer__icon {
+    
+}
+.footer__copyright{
+    color: $white;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: -0.5px;
+}
